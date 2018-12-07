@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83783652136214F00E87C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83783642136214F00E87C37 /* AppDelegate.swift */; };
+		D837836D2136214F00E87C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837836C2136214F00E87C37 /* ViewController.swift */; };
+		D837836F2136215000E87C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D837836E2136215000E87C37 /* Assets.xcassets */; };
+		D83783722136215000E87C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83783702136215000E87C37 /* Main.storyboard */; };
+		D837837F2136217D00E87C37 /* DrawingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837837B2136217D00E87C37 /* DrawingScene.swift */; };
+		D83783802136217D00E87C37 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837837C2136217D00E87C37 /* Pen.swift */; };
+		D83783812136217D00E87C37 /* DrawingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837837D2136217D00E87C37 /* DrawingHelper.swift */; };
+		D8378385213621C500E87C37 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = D8378384213621C500E87C37 /* pen.png */; };
+		D837839221364F2F00E87C37 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838621364F2D00E87C37 /* SKTAudio.swift */; };
+		D837839321364F2F00E87C37 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838721364F2D00E87C37 /* Int+Extensions.swift */; };
+		D837839421364F2F00E87C37 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838821364F2D00E87C37 /* SKNode+Extensions.swift */; };
+		D837839521364F2F00E87C37 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838921364F2D00E87C37 /* CGFloat+Extensions.swift */; };
+		D837839621364F2F00E87C37 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838A21364F2E00E87C37 /* CGVector+Extensions.swift */; };
+		D837839721364F2F00E87C37 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838B21364F2E00E87C37 /* SKAction+Extensions.swift */; };
+		D837839821364F2F00E87C37 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838C21364F2E00E87C37 /* CGPoint+Extensions.swift */; };
+		D837839921364F2F00E87C37 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838D21364F2E00E87C37 /* SKTEffects.swift */; };
+		D837839A21364F2F00E87C37 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838E21364F2E00E87C37 /* Vector3.swift */; };
+		D837839B21364F2F00E87C37 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837838F21364F2E00E87C37 /* SKTTimingFunctions.swift */; };
+		D837839C21364F2F00E87C37 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837839021364F2F00E87C37 /* SKAction+SpecialEffects.swift */; };
+		D837839D21364F2F00E87C37 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837839121364F2F00E87C37 /* SKColor+Extensions.swift */; };
+		D83783A12136537E00E87C37 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = D83783A02136537E00E87C37 /* blank.png */; };
+		D83783A3213653BB00E87C37 /* DrawingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D83783A2213653BB00E87C37 /* DrawingScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D83783612136214F00E87C37 /* Draw-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83783642136214F00E87C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D837836C2136214F00E87C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D837836E2136215000E87C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83783712136215000E87C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83783732136215000E87C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83783742136215000E87C37 /* Draw_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Draw_Mac.entitlements; sourceTree = "<group>"; };
+		D837837B2136217D00E87C37 /* DrawingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingScene.swift; sourceTree = "<group>"; };
+		D837837C2136217D00E87C37 /* Pen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		D837837D2136217D00E87C37 /* DrawingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingHelper.swift; sourceTree = "<group>"; };
+		D8378384213621C500E87C37 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		D837838621364F2D00E87C37 /* SKTAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		D837838721364F2D00E87C37 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		D837838821364F2D00E87C37 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		D837838921364F2D00E87C37 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		D837838A21364F2E00E87C37 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		D837838B21364F2E00E87C37 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		D837838C21364F2E00E87C37 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		D837838D21364F2E00E87C37 /* SKTEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		D837838E21364F2E00E87C37 /* Vector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		D837838F21364F2E00E87C37 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		D837839021364F2F00E87C37 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		D837839121364F2F00E87C37 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		D83783A02136537E00E87C37 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		D83783A2213653BB00E87C37 /* DrawingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DrawingScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D837835E2136214F00E87C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83783582136214F00E87C37 = {
+			isa = PBXGroup;
+			children = (
+				D83783632136214F00E87C37 /* Draw-Mac */,
+				D83783622136214F00E87C37 /* Products */,
+				D837837D2136217D00E87C37 /* DrawingHelper.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		D83783622136214F00E87C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83783612136214F00E87C37 /* Draw-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83783632136214F00E87C37 /* Draw-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D837837B2136217D00E87C37 /* DrawingScene.swift */,
+				D837839F213650C700E87C37 /* Support Files */,
+				D83783A42136558100E87C37 /* Images */,
+				D837836E2136215000E87C37 /* Assets.xcassets */,
+				D83783702136215000E87C37 /* Main.storyboard */,
+				D83783732136215000E87C37 /* Info.plist */,
+				D83783742136215000E87C37 /* Draw_Mac.entitlements */,
+			);
+			path = "Draw-Mac";
+			sourceTree = "<group>";
+		};
+		D837839E21364F5300E87C37 /* SKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D837838921364F2D00E87C37 /* CGFloat+Extensions.swift */,
+				D837838C21364F2E00E87C37 /* CGPoint+Extensions.swift */,
+				D837838A21364F2E00E87C37 /* CGVector+Extensions.swift */,
+				D837838721364F2D00E87C37 /* Int+Extensions.swift */,
+				D837838B21364F2E00E87C37 /* SKAction+Extensions.swift */,
+				D837839021364F2F00E87C37 /* SKAction+SpecialEffects.swift */,
+				D837839121364F2F00E87C37 /* SKColor+Extensions.swift */,
+				D837838821364F2D00E87C37 /* SKNode+Extensions.swift */,
+				D837838621364F2D00E87C37 /* SKTAudio.swift */,
+				D837838D21364F2E00E87C37 /* SKTEffects.swift */,
+				D837838F21364F2E00E87C37 /* SKTTimingFunctions.swift */,
+				D837838E21364F2E00E87C37 /* Vector3.swift */,
+			);
+			path = SKUtils;
+			sourceTree = "<group>";
+		};
+		D837839F213650C700E87C37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D837839E21364F5300E87C37 /* SKUtils */,
+				D83783642136214F00E87C37 /* AppDelegate.swift */,
+				D837836C2136214F00E87C37 /* ViewController.swift */,
+				D83783A2213653BB00E87C37 /* DrawingScene.sks */,
+				D837837C2136217D00E87C37 /* Pen.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		D83783A42136558100E87C37 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8378384213621C500E87C37 /* pen.png */,
+				D83783A02136537E00E87C37 /* blank.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83783602136214F00E87C37 /* Draw-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83783772136215000E87C37 /* Build configuration list for PBXNativeTarget "Draw-Mac" */;
+			buildPhases = (
+				D837835D2136214F00E87C37 /* Sources */,
+				D837835E2136214F00E87C37 /* Frameworks */,
+				D837835F2136214F00E87C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Draw-Mac";
+			productName = "Draw-Mac";
+			productReference = D83783612136214F00E87C37 /* Draw-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83783592136214F00E87C37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Make School";
+				TargetAttributes = {
+					D83783602136214F00E87C37 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = D837835C2136214F00E87C37 /* Build configuration list for PBXProject "Draw-Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83783582136214F00E87C37;
+			productRefGroup = D83783622136214F00E87C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83783602136214F00E87C37 /* Draw-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D837835F2136214F00E87C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83783A3213653BB00E87C37 /* DrawingScene.sks in Resources */,
+				D837836F2136215000E87C37 /* Assets.xcassets in Resources */,
+				D8378385213621C500E87C37 /* pen.png in Resources */,
+				D83783722136215000E87C37 /* Main.storyboard in Resources */,
+				D83783A12136537E00E87C37 /* blank.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D837835D2136214F00E87C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83783812136217D00E87C37 /* DrawingHelper.swift in Sources */,
+				D83783802136217D00E87C37 /* Pen.swift in Sources */,
+				D837839421364F2F00E87C37 /* SKNode+Extensions.swift in Sources */,
+				D837839721364F2F00E87C37 /* SKAction+Extensions.swift in Sources */,
+				D837839821364F2F00E87C37 /* CGPoint+Extensions.swift in Sources */,
+				D837839C21364F2F00E87C37 /* SKAction+SpecialEffects.swift in Sources */,
+				D837836D2136214F00E87C37 /* ViewController.swift in Sources */,
+				D837839B21364F2F00E87C37 /* SKTTimingFunctions.swift in Sources */,
+				D837839621364F2F00E87C37 /* CGVector+Extensions.swift in Sources */,
+				D837839921364F2F00E87C37 /* SKTEffects.swift in Sources */,
+				D837839221364F2F00E87C37 /* SKTAudio.swift in Sources */,
+				D837839521364F2F00E87C37 /* CGFloat+Extensions.swift in Sources */,
+				D837839D21364F2F00E87C37 /* SKColor+Extensions.swift in Sources */,
+				D837839321364F2F00E87C37 /* Int+Extensions.swift in Sources */,
+				D83783652136214F00E87C37 /* AppDelegate.swift in Sources */,
+				D837839A21364F2F00E87C37 /* Vector3.swift in Sources */,
+				D837837F2136217D00E87C37 /* DrawingScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D83783702136215000E87C37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83783712136215000E87C37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83783752136215000E87C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D83783762136215000E87C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D83783782136215000E87C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Draw-Mac/Draw_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F65765B274;
+				INFOPLIST_FILE = "Draw-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Draw-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		D83783792136215000E87C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Draw-Mac/Draw_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F65765B274;
+				INFOPLIST_FILE = "Draw-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Draw-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D837835C2136214F00E87C37 /* Build configuration list for PBXProject "Draw-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83783752136215000E87C37 /* Debug */,
+				D83783762136215000E87C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83783772136215000E87C37 /* Build configuration list for PBXNativeTarget "Draw-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83783782136215000E87C37 /* Debug */,
+				D83783792136215000E87C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83783592136214F00E87C37 /* Project object */;
+}
